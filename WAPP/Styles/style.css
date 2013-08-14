@@ -1,0 +1,92 @@
+﻿body {
+    background-image: url('/Images/background.png');
+    background-repeat: repeat;
+}
+
+#top {
+    height: 10px;
+}
+
+#header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#facebook { background-image: url('../Images/icon-fb-hover-none.png'); }
+
+#facebook:hover { background-image: url('../Images/icon-fb-hover.png'); }
+
+#blog { background-image: url('../Images/icon-blog-hover-none.png'); }
+
+#blog:hover { background-image: url('../Images/icon-blog-hover.png'); }
+
+.socLink-style {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-repeat: no-repeat;
+    float: right;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
+#login-button {
+    margin: 5px 5px 5px 20px;
+    width: 50px;
+    height: 25px;
+    background-image: url('../Images/button-login.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: right;
+    border-radius: 4px;
+}
+
+#logo {
+    width: 300px;
+    height: 250px;
+    background-image: url('../Images/logo-cricket.png');
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-bar {
+    background-color:#363537;
+    margin-top: 20px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    padding: 0;
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#nav-bar li {
+    float:left;
+}
+
+#nav-bar a:link, #nav-bar a:visited
+{
+    display:block;
+    width:120px;
+    font-family: Utsaah;
+    font-size: 18pt;
+    font-weight:bold;
+    color:#808080;
+    background-color:#363537;
+    text-align:center;
+    padding:5px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#nav-bar a:hover, #nav-bar a:active
+{
+    color: #ebeaea;
+}
