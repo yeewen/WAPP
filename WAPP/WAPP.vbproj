@@ -210,11 +210,28 @@
     <Content Include="Gallery.aspx" />
     <Content Include="Images\About-Ali.jpg" />
     <Content Include="Images\About-Usman.jpg" />
-    <Content Include="Images\About-Waqas.jpg" />
+    <Content Include="Images\About-Waqas.png" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\background.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\button-login.png" />
+    <Content Include="Images\Gallery01.jpg" />
+    <Content Include="Images\Gallery10.jpg" />
+    <Content Include="Images\Gallery11.jpg" />
+    <Content Include="Images\Gallery12.jpg" />
+    <Content Include="Images\Gallery13.jpg" />
+    <Content Include="Images\Gallery14.jpg" />
+    <Content Include="Images\Gallery15.jpg" />
+    <Content Include="Images\Gallery16.jpg" />
+    <Content Include="Images\Gallery17.jpg" />
+    <Content Include="Images\Gallery02.jpg" />
+    <Content Include="Images\Gallery03.jpg" />
+    <Content Include="Images\Gallery04.jpg" />
+    <Content Include="Images\Gallery05.jpg" />
+    <Content Include="Images\Gallery06.jpg" />
+    <Content Include="Images\Gallery07.jpg" />
+    <Content Include="Images\Gallery08.jpg" />
+    <Content Include="Images\Gallery09.jpg" />
     <Content Include="Images\heroAccent.png" />
     <Content Include="Images\icon-blog-hover-none.png" />
     <Content Include="Images\icon-blog-hover.png" />
@@ -235,7 +252,7 @@
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Location.aspx" />
-    <Content Include="Register.aspx" />
+    <Content Include="SignUp.aspx" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
@@ -372,11 +389,11 @@
       <DependentUpon>Location.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Register.aspx.designer.vb">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="SignUp.aspx.designer.vb">
+      <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Register.aspx.vb">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="SignUp.aspx.vb">
+      <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">

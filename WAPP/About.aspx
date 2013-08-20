@@ -26,7 +26,7 @@
             <div class="half-grayscale-container">
                 <img class="half-grayscale" src="Images/About-Ali.jpg">
                 <img class="half-grayscale" src="Images/About-Usman.jpg">
-                <img class="half-grayscale" src="Images/About-Waqas.jpg">
+                <img class="half-grayscale" src="Images/About-Waqas.png">
             </div>
             <ul class="post">
                 <li>President</li>
