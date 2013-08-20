@@ -206,8 +206,6 @@
     <Content Include="Images\About-Ali.jpg" />
     <Content Include="Images\About-Usman.jpg" />
     <Content Include="Images\About-Waqas.png" />
-    <Content Include="Images\accent.png" />
-    <Content Include="Images\About-Waqas.jpg" />
     <Content Include="Images\background.png" />
     <Content Include="Images\button-login.png" />
     <Content Include="Images\Gallery01.jpg" />
@@ -227,7 +225,6 @@
     <Content Include="Images\Gallery07.jpg" />
     <Content Include="Images\Gallery08.jpg" />
     <Content Include="Images\Gallery09.jpg" />
-    <Content Include="Images\heroAccent.png" />
     <Content Include="Images\icon-blog-hover-none.png" />
     <Content Include="Images\icon-blog-hover.png" />
     <Content Include="Images\icon-fb-hover-none.png" />
