@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Login | Cricket Club</title>
     <link rel="stylesheet" href="/Styles/style.css" type="text/css" />
-    </style>
+   
 </head>
 <body>
     <div id="login">
@@ -17,6 +17,8 @@
             <input type="submit" value="Login"/>
     </form>
     </div>
-    <div id="back"><asp:HyperLink ID="hyperlink1" runat="server" NavigateUrl="~/Default.aspx" Font-Underline="False">Back</asp:HyperLink></div>
+    <div id="back">
+        Not a member ? <asp:HyperLink ID="hyperlink2" runat="server" NavigateUrl="~/Register.aspx" Font-Underline="False">Sign up now</asp:HyperLink>
+    </div>
 </body>
 </html>
