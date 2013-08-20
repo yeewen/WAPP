@@ -1,4 +1,5 @@
 WAPP/bin/*
+WAPP/My Project/*
 WAPP/obj/*/*.*
-*.v11.suo
+WAPP.v11.suo
 *.vbproj
