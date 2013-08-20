@@ -12,22 +12,24 @@
 <body>
     <form runat="server">
     <div id="top"></div>
-    <div id="header">
-        <div id="login-button"></div>
+    <div id="header"> 
+        <asp:HyperLink ID="loginNow" runat="server" NavigateUrl="~/Login.aspx" Font-Underline="False">login now</asp:HyperLink>
         <a id="blog" class="socLink-style" href="http://www.ucticricket.blogspot.com/" target="_blank">Blog</a>
         <a id="facebook" class="socLink-style" href="https://www.facebook.com/ucticc" target="_blank">FB</a>
         <div id="logo"></div>
     </div>
     <div id="nav-bar">
         <ul>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#gallery">GALLERY</a></li>
-            <li><a href="#schedule">SCHEDULE</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default.aspx" Font-Underline="false">HOME</asp:HyperLink></li>
+            <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Gallery.aspx" Font-Underline="false">Gallery</asp:HyperLink></li>
+            <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Location.aspx" Font-Underline="false">Location</asp:HyperLink></li>
+            <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/About.aspx" Font-Underline="false">ABOUT</asp:HyperLink></li>
         </ul>
     </div>
+    <div id="main-content">
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
-        <asp:ContentPlaceHolder runat="server" ID="MainContent" />   
+        <asp:ContentPlaceHolder runat="server" ID="MainContent" /> 
+    </div>
     </form>
 </body>
 </html>
