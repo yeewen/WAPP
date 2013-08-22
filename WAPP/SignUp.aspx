@@ -21,17 +21,17 @@
             <form id="form1" runat="server" method="post">
                 <asp:TextBox ID="txtTPNumber" runat="server" CssClass="input-txt" placeholder="TP Number"></asp:TextBox>
                 <br />
-                <asp:TextBox ID="txtFirstName" runat="server" CssClass="input-txt"></asp:TextBox>
+                <asp:TextBox ID="txtFirstName" runat="server" CssClass="input-txt" placeholder="First Name"></asp:TextBox>
                 <br />
-                <asp:TextBox ID="txtLastName" runat="server" CssClass="input-txt"></asp:TextBox>
+                <asp:TextBox ID="txtLastName" runat="server" CssClass="input-txt" placeholder="Last Name"></asp:TextBox>
                 <br />
-                <asp:TextBox ID="txtEmail" runat="server" CssClass="input-txt"></asp:TextBox>
+                <asp:TextBox ID="txtEmail" runat="server" CssClass="input-txt" placeholder="Email"></asp:TextBox>
                 <br />
-                <asp:TextBox ID="txtContact" runat="server" CssClass="input-txt"></asp:TextBox>
+                <asp:TextBox ID="txtContact" runat="server" CssClass="input-txt" placeholder="Contact"></asp:TextBox>
                 <br />
-                <asp:TextBox ID="txtPassword" runat="server" CssClass="input-txt"></asp:TextBox>
+                <asp:TextBox ID="txtPassword" runat="server" CssClass="input-txt" placeholder="Password"></asp:TextBox>
                 <br />
-                <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="input-txt"></asp:TextBox>
+                <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="input-txt" placeholder="Re-enter Password"></asp:TextBox>
                 <br />
                 <br />
                 <div class="signUp-footer">
