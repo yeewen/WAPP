@@ -5,8 +5,8 @@
 <head runat="server">
     <meta charset="utf-8" />
     <title>Cricket Club</title>
+    <link rel="stylesheet" href="/Styles/style.css" type="text/css" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent">
-        <link rel="stylesheet" href="/Styles/style.css" type="text/css" />
     </asp:ContentPlaceHolder>
 </head>
 <body>
