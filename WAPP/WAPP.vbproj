@@ -147,6 +147,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Admin\admin-login.aspx" />
+    <Content Include="Admin\BulletinBoard.aspx" />
+    <Content Include="Admin\index.aspx" />
+    <Content Include="Admin\manage-member.aspx" />
+    <Content Include="Admin\register-admin.aspx" />
+    <Content Include="Admin\view-admin.aspx" />
     <Content Include="App_Data\WAPP.mdf" />
     <Content Include="App_Data\WAPP_log.ldf">
       <DependentUpon>WAPP.mdf</DependentUpon>
@@ -236,6 +242,7 @@
     <Content Include="Images\logo-cricket.png" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
+    <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Location.aspx" />
     <Content Include="SignUp.aspx" />
@@ -280,6 +287,48 @@
     </Compile>
     <Compile Include="About.aspx.vb">
       <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin-login.aspx.designer.vb">
+      <DependentUpon>admin-login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin-login.aspx.vb">
+      <DependentUpon>admin-login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BulletinBoard.aspx.designer.vb">
+      <DependentUpon>BulletinBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BulletinBoard.aspx.vb">
+      <DependentUpon>BulletinBoard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\manage-member.aspx.designer.vb">
+      <DependentUpon>manage-member.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\manage-member.aspx.vb">
+      <DependentUpon>manage-member.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\register-admin.aspx.designer.vb">
+      <DependentUpon>register-admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\register-admin.aspx.vb">
+      <DependentUpon>register-admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\view-admin.aspx.designer.vb">
+      <DependentUpon>view-admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\view-admin.aspx.vb">
+      <DependentUpon>view-admin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.vb">
@@ -355,6 +404,13 @@
     </Compile>
     <Compile Include="TEST.aspx.vb">
       <DependentUpon>TEST.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
