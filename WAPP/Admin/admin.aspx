@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="view-admin.aspx.vb" Inherits="WAPP.view_admin" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="admin.aspx.vb" Inherits="WAPP.view_admin" %>
 
 <!DOCTYPE html>
 
