@@ -150,9 +150,9 @@
     <Content Include="Admin\admin-login.aspx" />
     <Content Include="Admin\BulletinBoard.aspx" />
     <Content Include="Admin\index.aspx" />
-    <Content Include="Admin\manage-member.aspx" />
+    <Content Include="Admin\member.aspx" />
     <Content Include="Admin\register-admin.aspx" />
-    <Content Include="Admin\view-admin.aspx" />
+    <Content Include="Admin\admin.aspx" />
     <Content Include="App_Data\WAPP.mdf" />
     <Content Include="App_Data\WAPP_log.ldf">
       <DependentUpon>WAPP.mdf</DependentUpon>
@@ -313,11 +313,11 @@
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Admin\manage-member.aspx.designer.vb">
-      <DependentUpon>manage-member.aspx</DependentUpon>
+    <Compile Include="Admin\member.aspx.designer.vb">
+      <DependentUpon>member.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\manage-member.aspx.vb">
-      <DependentUpon>manage-member.aspx</DependentUpon>
+    <Compile Include="Admin\member.aspx.vb">
+      <DependentUpon>member.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Admin\register-admin.aspx.designer.vb">
@@ -336,9 +336,11 @@
     </Compile>
     <Compile Include="Admin\view-admin.aspx.designer.vb">
       <DependentUpon>view-admin.aspx</DependentUpon>
+    <Compile Include="Admin\admin.aspx.designer.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\view-admin.aspx.vb">
-      <DependentUpon>view-admin.aspx</DependentUpon>
+    <Compile Include="Admin\admin.aspx.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.vb">
