@@ -147,9 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="App_Data\MemberDB.mdf" />
-    <Content Include="App_Data\MemberDB_log.ldf">
-      <DependentUpon>MemberDB.mdf</DependentUpon>
+    <Content Include="App_Data\WAPP.mdf" />
+    <Content Include="App_Data\WAPP_log.ldf">
+      <DependentUpon>WAPP.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
