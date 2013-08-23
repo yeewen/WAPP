@@ -216,6 +216,7 @@
     <Content Include="Images\About-Ali.jpg" />
     <Content Include="Images\About-Usman.jpg" />
     <Content Include="Images\About-Waqas.png" />
+    <Content Include="Images\admin-header.png" />
     <Content Include="Images\background.png" />
     <Content Include="Images\button-login.png" />
     <Content Include="Images\Gallery01.jpg" />
@@ -242,7 +243,9 @@
     <Content Include="Images\logo-cricket.png" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Styles\admin.css" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="Admin\Site1.Master" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Location.aspx" />
     <Content Include="SignUp.aspx" />
@@ -323,6 +326,13 @@
     <Compile Include="Admin\register-admin.aspx.vb">
       <DependentUpon>register-admin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\view-admin.aspx.designer.vb">
       <DependentUpon>view-admin.aspx</DependentUpon>

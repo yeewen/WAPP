@@ -1,0 +1,63 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WAPP.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="/Styles/admin.css" type="text/css" />
+</head>
+<body>
+    <div id="admin-header"></div>
+    <div id="wrapper">
+        <div id="admin-navbar">            
+            <asp:Table ID="navbar" runat="server">
+                <asp:TableRow>
+                    <asp:TableCell CssClass="menu">
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="#EditProfile" Font-Underline="false">
+                            Edit profile
+                        </asp:HyperLink>
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell CssClass="menu">
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin/register-admin.aspx" Font-Underline="false">
+                            Register new admin
+                        </asp:HyperLink>
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell CssClass="menu">
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Admin/view-admin.aspx" Font-Underline="false">
+                            View admin
+                        </asp:HyperLink>
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell CssClass="menu">
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admin/view-admin.aspx" Font-Underline="false">
+                            Manage member
+                        </asp:HyperLink>
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell CssClass="menu">
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Admin/BulletinBoard.aspx" Font-Underline="false">
+                            Update Bulletin 
+                        </asp:HyperLink>
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>    
+        </div>
+
+        <div id="admin-content">
+            <form id="form1" runat="server">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

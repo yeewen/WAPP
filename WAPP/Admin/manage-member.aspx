@@ -1,16 +1,5 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="manage-member.aspx.vb" Inherits="WAPP.manage_member" %>
+﻿<%@ Page Title="Manage Member" Language="VB" MasterPageFile="~/Admin/Site1.Master" AutoEventWireup="true" CodeBehind="manage-member.aspx.vb" Inherits="WAPP.manage_member" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="MainContent">
+    Manage Member
+</asp:Content>

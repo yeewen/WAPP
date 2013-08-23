@@ -1,16 +1,6 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="BulletinBoard.aspx.vb" Inherits="WAPP.BulletinBoard" %>
+﻿<%@ Page Title="Bulletin" Language="VB" MasterPageFile="~/Admin/Site1.Master" AutoEventWireup="true" CodeBehind="BulletinBoard.aspx.vb" Inherits="WAPP.BulletinBoard" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="MainContent">
+    Bulletin
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
