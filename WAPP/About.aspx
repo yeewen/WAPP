@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="About" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.vb" Inherits="WAPP.About" %>
 
-<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+<asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div id="about-left">
         <h3>THE FIRST CRICKET CLUB</h3>
         "Founded in 2006, A.P.U Cricket Club is a young and passionate, active and playful club with over 50 members.

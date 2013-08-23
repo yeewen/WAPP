@@ -268,13 +268,13 @@ svg image:hover { opacity: 0; }
 
 /*SIGN UP PAGE*/
 .sign-up{
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 680px;
   margin: 0 auto;
 }
 .register{
   margin-top: 50px;
-  width: 450px;
+  width: 656px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -284,7 +284,7 @@ svg image:hover { opacity: 0; }
 }
 
 .input-txt{
-  width: 100%;
+  width: 400px;
   padding: 15px;
   background: #dbdddd;
   border: none;
@@ -296,7 +296,7 @@ svg image:hover { opacity: 0; }
   margin: 10px 0;
   overflow: hidden;
   float: left;
-  width: 480px;
+  width: 435px;
 }
 .register-button{
   padding: 13px 30px;
